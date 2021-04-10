@@ -1,0 +1,54 @@
+/* common styles */ * { 
+	padding: 0px; 
+	margin: 0; 
+	} 
+	body { 
+		width: 100vw; 
+		min-height: 100vh; 
+		text-align: center;
+		margin-top: 200px;
+		justify-content: center; 
+		background: linear-gradient(#F00000, #DC281E);
+		 font-family: sans-serif; 
+		 } 
+	button:hover { 
+		cursor: pointer; 
+		background-color: #C20CF2; 
+		} 
+	li{ 
+		list-style-type: none; /* get rid of bullet points on side of list items */ 
+		} /* common style ends */ /* container */ 
+    input { 
+    	width: 250px; 
+    	border: none; 
+    	outline: none; 
+    	border-radius: 5px; 
+    	padding: 10px; 
+    	margin-right: 10px; 
+    	font-size: 1rem; 
+    	} 
+    button { 
+    	background-color: #F20CE4; 
+    	color: #fff; 
+    	border: none; 
+    	outline: none; 
+    	border-radius: 5px; 
+    	padding: 7px; 
+    	font-size: 1.2rem; 
+
+    	} /* todo-form style ends */ /* todo-items */ 
+     
+    	/* each li with class="item" */ 
+    li { 
+    		background-color: black; 
+    		padding: 10px; 
+    		font-size: 1.1rem; 
+    		color: red;
+    		margin-left: 250px;
+    		margin-right: 250px;
+
+    	}
+    h3{
+    	margin-top: 10px;
+    }
+    		 
